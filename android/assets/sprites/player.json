@@ -1,0 +1,23 @@
+[
+  {
+    class: com.t3o.assets.resources.AnimationResource,
+    object: PLAYER,
+    name: PLAYER_IDLE,
+    type: IDLE,
+    speed: 0.06
+  },
+  {
+    class: com.t3o.assets.resources.AnimationResource,
+    object: PLAYER,
+    name: PLAYER_MOVE,
+    type: MOVE,
+    speed: 0.06
+  },
+  {
+    class: com.t3o.assets.resources.AnimationResource,
+    object: PLAYER,
+    name: PLAYER_JUMP,
+    type: JUMP,
+    speed: 0.06
+  }
+]

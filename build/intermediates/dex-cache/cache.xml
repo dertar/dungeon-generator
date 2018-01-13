@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\uwague\core\build\libs\core-1.0.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="6a59de8bd01f7b41b037a213452059ae468dd109">
+        <dex dex="D:\uwague\android\build\intermediates\pre-dexed\debug\core-1.0_031cd1524d721120c888a673858150c3ab787fbd.jar" />
+    </item>
+
+</items>

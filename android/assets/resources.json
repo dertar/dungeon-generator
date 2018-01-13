@@ -1,0 +1,20 @@
+{
+  "tiles_json"          : "tiles/tiles.json",
+  "tiles_pack"          : "tiles/tiles.pack",
+
+  "prefont_fnt"              : "ui/press_start_2p_12p.fnt",
+  "prefont_png"              : "ui/press_start_2p_12p.png",
+  "anim_player_json"		 : "sprites/player.json",
+  "anim_player_pack"		 : "sprites/player.pack",
+  "decorations_pack"              : "decorations/decorations.pack",
+  "decorations_json"              : "decorations/decorations.json"
+  "static_decorations_json"       : "decorations/static_decorations.json",
+
+  "room_patterns_left_right"         : "patterns/left_right.json",
+  "room_patterns_top_left_right"     : "patterns/top_left_right.json",
+  "room_patterns_top_bot_left_right" : "patterns/top_bot_left_right.json",
+  "room_patterns_bot_left_right"     : "patterns/bot_left_right.json",
+
+  "parallax_json"                   : "parallax/parallax.json",
+  "parallax_pack"                   : "parallax/parallax.pack"
+}

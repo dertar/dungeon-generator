@@ -1,0 +1,464 @@
+[
+	{
+		canMirror:true,
+		light:{ x:7, y:7 },
+		offset:{y:-1},
+		animation:
+			{
+				name:CRYSTAL_00_LB,
+				speed:1.5,
+				playMode:LOOP
+			},
+		color:{r:0.63,g:0.99,b:1.0,a:1.0},
+		pxDistLightMin: 16,
+		pxDistLightMax: 16,
+		minScale: 1,
+		maxScale: 1.25,
+		rays:8
+	},
+	{
+		canMirror:true,
+		light:{x:7, y:7},
+		offset:{y:-1},
+		animation:
+			{
+				name:CRYSTAL_00_P,
+				speed:1.5,
+				playMode:LOOP
+			},
+		color: {r:0.56,g:0.34,b:1.0,a:1.0},
+		pxDistLightMin: 16,
+		pxDistLightMax: 16,
+		minScale: 1,
+		maxScale: 1.25,
+		rays:8
+	},
+	{
+		canMirror:true,
+		light:{x:7, y:7},
+		offset:{y:-1},
+		animation:
+			{
+				name:CRYSTAL_00_G,
+				speed:1.5,
+				playMode:LOOP
+			},
+		color: {r:0.0,g:1.0,b:0.64,a:1.0},
+		pxDistLightMin: 16,
+		pxDistLightMax: 16,
+		minScale: 1,
+		maxScale: 1.25,
+		rays:8
+	},
+	{
+		canMirror:true,
+		light:{x:7, y:7},
+		offset:{y:-1},
+		animation:
+			{
+				name:CRYSTAL_00_M,
+				speed:1.5,
+				playMode:LOOP
+			},
+		color: {r: 1.0,g:0.0,b:1.0,a:1.0},
+		pxDistLightMin: 16,
+		pxDistLightMax: 16,
+		minScale: 1,
+		maxScale: 1.25,
+		rays:8
+	},
+	{
+		canMirror:true,
+		light:{x:7, y:7},
+		offset:{y:-1},
+		animation:
+			{
+				name:CRYSTAL_00_Y,
+				speed:1.5,
+				playMode:LOOP
+			},
+		color: {r: 1.0,g:1.0,b:0.0,a:1.0},
+		pxDistLightMin: 16,
+		pxDistLightMax: 16,
+		minScale: 1,
+		maxScale: 1.25,
+		rays:8
+	},
+	{
+		canMirror:true,
+		light:{x:12,y:14},
+		offset:{y:-1},
+		animation:
+			{
+				name:CRYSTAL_01_LB,
+				speed:1.75,
+				playMode:LOOP
+			},
+		color:{r:0.63,g:0.99,b:1.0,a:1.0},
+		pxDistLightMin: 16,
+		pxDistLightMax: 16,
+		minScale: 1,
+		maxScale: 1.25,
+		rays:8
+	},
+	{
+		canMirror:true,
+		light:{x:12,y:14},
+		offset:{y:-1},
+		animation:
+			{
+				name:CRYSTAL_01_P,
+				speed:1.75,
+				playMode:LOOP
+			},
+		color:{r:0.56,g:0.34,b:1.0,a:1.0},
+		pxDistLightMin: 16,
+		pxDistLightMax: 16,
+		minScale: 1,
+		maxScale: 1.25,
+		rays:8
+	},
+	{
+		canMirror:true,
+		light:{x:12,y:14},
+		offset:{y:-1},
+		animation:
+			{
+				name:CRYSTAL_01_G,
+				speed:1.75,
+				playMode:LOOP
+			},
+		color:{r:0.0,g:1.0,b:0.64,a:1.0},
+		pxDistLightMin: 16,
+		pxDistLightMax: 16,
+		minScale: 1,
+		maxScale: 1.25,
+		rays:8
+	},
+	{
+		canMirror:true,
+		light:{x:12,y:14},
+		offset:{y:-1},
+		animation:
+			{
+				name:CRYSTAL_01_M,
+				speed:1.75,
+				playMode:LOOP
+			},
+		color:{r: 1.0,g:0.0,b:1.0,a:1.0},
+		pxDistLightMin: 16,
+		pxDistLightMax: 16,
+		minScale: 1,
+		maxScale: 1.25,
+		rays:8
+	},
+	{
+		canMirror:true,
+		light:{x:12,y:14},
+		offset:{y:-1},
+		animation:
+			{
+				name:CRYSTAL_01_Y,
+				speed:1.75,
+				playMode:LOOP
+			},
+		color:{r: 1.0,g:1.0,b:0.0,a:1.0},
+		pxDistLightMin: 16,
+		pxDistLightMax: 16,
+		minScale: 1,
+		maxScale: 1.25,
+		rays:8
+	},
+	{
+		canMirror:true,
+		light:{x:12,y:15},
+		offset:{y:-2},
+		animation:
+			{
+				name:CRYSTAL_02_LB,
+				speed:1.75,
+				playMode:LOOP
+			},
+		color:{r:0.63,g:0.99,b:1.0,a:1.0},
+		pxDistLightMin: 16,
+		pxDistLightMax: 16,
+		minScale: 1,
+		maxScale: 1,
+		rays:8
+	},
+	{
+		canMirror:true,
+		light:{x:12,y:15},
+		offset:{y:-2},
+		animation:
+			{
+				name:CRYSTAL_02_P,
+				speed:1.75,
+				playMode:LOOP
+			},
+		color:{r:0.56,g:0.34,b:1.0,a:1.0},
+		pxDistLightMin: 16,
+		pxDistLightMax: 16,
+		minScale: 1,
+		maxScale: 1,
+		rays:8
+	},
+	{
+		canMirror:true,
+		light:{x:12,y:15},
+		offset:{y:-2},
+		animation:
+			{
+				name:CRYSTAL_02_G,
+				speed:1.75,
+				playMode:LOOP
+			},
+		color:{r:0.0,g:1.0,b:0.64,a:1.0},
+		pxDistLightMin: 16,
+		pxDistLightMax: 16,
+		minScale: 1,
+		maxScale: 1,
+		rays:8
+	},
+	{
+		canMirror:true,
+		light:{x:12,y:15},
+		offset:{y:-2},
+		animation:
+			{
+				name:CRYSTAL_02_M,
+				speed:1.75,
+				playMode:LOOP
+			},
+		color:{r: 1.0,g:0.0,b:1.0,a:1.0},
+		pxDistLightMin: 16,
+		pxDistLightMax: 16,
+		minScale: 1,
+		maxScale: 1,
+		rays:8
+	},
+	{
+		canMirror:true,
+		light:{x:12,y:15},
+		offset:{y:-2},
+		animation:
+			{
+				name:CRYSTAL_02_Y,
+				speed:1.75,
+				playMode:LOOP
+			},
+		color:{r: 1.0,g:1.0,b:0.0,a:1.0},
+		pxDistLightMin: 16,
+		pxDistLightMax: 16,
+		minScale: 1,
+		maxScale: 1,
+		rays:8
+	},
+	{
+		canMirror:true,
+		light:{x:13,y:14},
+		offset:{y:-2},
+		animation:
+			{
+				name:CRYSTAL_03_LB,
+				speed:1.75,
+				playMode:LOOP
+			},
+		color:{r:0.63,g:0.99,b:1.0,a:1.0},
+		pxDistLightMin: 16,
+		pxDistLightMax: 16,
+		minScale: 0.9,
+		maxScale: 1,
+		rays:8
+	},
+	{
+		canMirror:true,
+		light:{x:13,y:14},
+		offset:{y:-2},
+		animation:
+			{
+				name:CRYSTAL_03_P,
+				speed:1.75,
+				playMode:LOOP
+			},
+		color:{r:0.56,g:0.34,b:1.0,a:1.0},
+		pxDistLightMin: 16,
+		pxDistLightMax: 16,
+		minScale: 0.9,
+		maxScale: 1,
+		rays:8
+	},
+	{
+		canMirror:true,
+		light:{x:13,y:14},
+		offset:{y:-2},
+		animation:
+			{
+				name:CRYSTAL_03_G,
+				speed:1.75,
+				playMode:LOOP
+			},
+		color:{r:0.0,g:1.0,b:0.64,a:1.0},
+		pxDistLightMin: 16,
+		pxDistLightMax: 16,
+		minScale: 0.9,
+		maxScale: 1,
+		rays:8
+	},
+	{
+		canMirror:true,
+		light:{x:13,y:14},
+		offset:{y:-2},
+		animation:
+			{
+				name:CRYSTAL_03_M,
+				speed:1.75,
+				playMode:LOOP
+			},
+		color:{r: 1.0,g:0.0,b:1.0,a:1.0},
+		pxDistLightMin: 16,
+		pxDistLightMax: 16,
+		minScale: 0.9,
+		maxScale: 1,
+		rays:8
+	},
+	{
+		canMirror:true,
+		light:{x:13,y:14},
+		offset:{y:-2},
+		animation:
+			{
+				name:CRYSTAL_03_Y,
+				speed:1.75,
+				playMode:LOOP
+			},
+		color:{r: 1.0,g:1.0,b:0.0,a:1.0},
+		pxDistLightMin: 16,
+		pxDistLightMax: 16,
+		minScale: 0.9,
+		maxScale: 1,
+		rays:8
+	},
+	{
+		canMirror:true,
+		light:{x:10,y:10},
+		offset:{y:-2},
+		animation:
+			{
+				name:TORCH_FLOOR_0,
+				speed:0.75,
+				playMode:LOOP
+			},
+		color:{r: 0.82,g:0.6,b:0.0,a:0.8},
+		pxDistLightMin: 100,
+		pxDistLightMax: 160,
+		torch: true,
+		pattern:{pattern:[[NONE,NONE,NONE],[NONE,EMPTY,NONE],[NONE,BLOCKED,NONE]]}
+	},
+	
+	{
+		canMirror:true,
+		light:{x:10,y:10},
+		offset:{y:-1},
+		animation:
+			{
+				name:TORCH_FLOOR_1,
+				speed:0.75,
+				playMode:LOOP
+			},
+		color:{r: 0.80,g:0.6,b:0.0,a:0.8},
+		pxDistLightMin: 140,
+		pxDistLightMax: 180,
+		torch: true,
+		pattern:{pattern:[[NONE,NONE,NONE],[NONE,EMPTY,NONE],[NONE,EMPTY,NONE],[NONE,BLOCKED,NONE]]},
+		offsetPattern:{x: -1, y: 0}
+	},
+	{
+		canMirror:true,
+		light:{x:12,y:15},
+		offset:{y:-1},
+		animation:
+			{
+				name:BONFIRE_FLOOR_0,
+				speed:0.3,
+				playMode:LOOP
+			},
+		color:{r: 1,g:0.44,b:0.1,a:0.8},
+		pxDistLightMin: 160,
+		pxDistLightMax: 200,
+		torch: true,
+		pattern:{pattern:[[NONE,NONE,NONE],[NONE,EMPTY,NONE],[NONE,BLOCKED,NONE]]}
+	},
+	{
+		canMirror:true,
+		light:{x:12,y:13},
+		offset:{y:-1},
+		animation:
+			{
+				name:TORCH_BG_0,
+				speed:0.55,
+				playMode:LOOP
+			},
+		color:{r: 0.80,g:0.6,b:0.0,a:0.8},
+		pxDistLightMin: 80,
+		pxDistLightMax: 140,
+		torch: true,
+		isOnBg: true,
+		pattern:{pattern:[[EMPTY,EMPTY,EMPTY],[EMPTY,EMPTY,EMPTY],[EMPTY,EMPTY,EMPTY]]}
+	},	
+	{
+		canMirror:true,
+		light:{x:5,y:7},
+		offset:{y:-1},
+		animation:
+			{
+				name:TORCH_BG_1,
+				speed:0.75,
+				playMode:LOOP
+			},
+		color:{r: 1,g:0.44,b:0.1,a:0.8},
+		pxDistLightMin: 80,
+		pxDistLightMax: 140,
+		torch: true,
+		isOnBg: true,
+		pattern:{pattern:[[EMPTY,EMPTY,EMPTY],[EMPTY,EMPTY,EMPTY],[EMPTY,EMPTY,EMPTY]]}
+	},
+	{
+		canMirror:true,
+		light:{x:7,y:9},
+		offset:{y:-1},
+		animation:
+			{
+				name:CANDLE_FLOOR_0,
+				speed:0.75,
+				playMode:LOOP
+			},
+		color:{r: 1,g:0.44,b:0.1,a:1},
+		pxDistLightMin: 60,
+		pxDistLightMax: 100,
+		torch: true,
+		pattern:{pattern:[[NONE,NONE,NONE],[NONE,EMPTY,NONE],[NONE,BLOCKED,NONE]]}
+	},
+	{
+		canMirror:true,
+		offset:{y:16},
+		animation:
+			{
+				name:SPIDER_ON_WEB,
+				speed:0.50,
+				playMode:LOOP_PINGPONG 
+			},
+		isRoof:true
+	},
+	{
+		canMirror:true,
+		offset:{y:3},
+		animation:
+			{
+				name:DECOR_BAT,
+				speed:1,
+				playMode:LOOP_PINGPONG 
+			},
+		isRoof:true
+	},
+]

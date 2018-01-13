@@ -1,0 +1,12 @@
+[
+	{
+		ratioX: -3,
+		ratioY: -1,
+		regionName: default_layer_0
+	},
+	{
+		ratioX: 12,
+		ratioY: 3,
+		regionName: default_layer_1
+	}
+]

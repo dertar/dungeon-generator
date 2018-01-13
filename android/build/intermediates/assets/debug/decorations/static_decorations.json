@@ -1,0 +1,308 @@
+[
+	{
+		canMirror:true,
+		offset:{y:-2},
+		textureName: ROCK_00,
+		minScale: 1.5,
+		maxScale: 1.75
+	},
+	{
+		canMirror:true,
+		offset:{y:-2},
+		textureName: ROCK_01,
+		minScale: 1.5,
+		maxScale: 1.75
+	},
+	{
+		canMirror:true,
+		offset:{y:-2},
+		textureName: ROCK_02,
+		minScale: 1.5,
+		maxScale: 2
+	},
+	{
+		canMirror:true,
+		offset:{y:-3},
+		textureName: SIGNPOST_00,
+		minScale: 1.5,
+		maxScale: 2
+	},
+	{
+		canMirror:true,
+		offset:{y:-3},
+		textureName: SIGNPOST_01,
+		minScale: 1.5,
+		maxScale: 2
+	},
+	{
+		canMirror:true,
+		offset:{y:-3},
+		textureName: SIGNPOST_02,
+		minScale: 1.0,
+		maxScale: 1.5
+	},
+	{
+		canMirror:true,
+		offset:{y:-1},
+		textureName: MUSHROOM_00_P,
+		minScale: 1,
+		maxScale: 2
+	},
+	{
+		canMirror:true,
+		offset:{y:-1},
+		textureName: MUSHROOM_00_LP,
+		minScale: 1,
+		maxScale: 2
+	},
+	{
+		canMirror:true,
+		offset:{y:-1},
+		textureName: MUSHROOM_00_Y,
+		minScale: 1,
+		maxScale: 2
+	},
+	{
+		canMirror:true,
+		offset:{y:-1},
+		textureName: MUSHROOM_00_R,
+		minScale: 1,
+		maxScale: 2
+	},
+	{
+		canMirror:true,
+		offset:{y:-1},
+		textureName: MUSHROOM_01_P,
+		minScale: 1,
+		maxScale: 2
+	},
+	{
+		canMirror:true,
+		offset:{y:-1},
+		textureName: MUSHROOM_01_LP,
+		minScale: 1,
+		maxScale: 2
+	},
+	{
+		canMirror:true,
+		offset:{y:-1},
+		textureName: MUSHROOM_01_Y,
+		minScale: 1,
+		maxScale: 2
+	},
+	{
+		canMirror:true,
+		offset:{y:-1},
+		textureName: MUSHROOM_01_R,
+		minScale: 1,
+		maxScale: 2
+	},
+	{
+		canMirror:true,
+		offset:{y:-1},
+		textureName: MUSHROOM_02_R,
+		minScale: 1,
+		maxScale: 2
+	},
+	{
+		canMirror:true,
+		offset:{y:-1},
+		textureName: MUSHROOM_02_Y,
+		minScale: 1,
+		maxScale: 2
+	},
+	{
+		canMirror:true,
+		offset:{y:-1},
+		textureName: MUSHROOM_02_LP,
+		minScale: 1,
+		maxScale: 2
+	},
+	{
+		canMirror:true,
+		offset:{y:-1},
+		textureName: MUSHROOM_02_P,
+		minScale: 1,
+		maxScale: 2
+	},
+	{
+		isNear:true,
+		canMirror:true,
+		offset:{y:-1},
+		textureName: MUSHROOM_02_P,
+		minScale: 0.7,
+		maxScale: 1
+	},
+	{
+		isNear:true,
+		canMirror:true,
+		offset:{y:-1},
+		textureName: MUSHROOM_00_P,
+		minScale: 0.7,
+		maxScale: 1
+	},
+	{
+		isNear:true,
+		canMirror:true,
+		offset:{y:-1},
+		textureName: MUSHROOM_00_LP,
+		minScale: 0.7,
+		maxScale: 1
+	},
+	{
+		isNear:true,
+		canMirror:true,
+		offset:{y:-1},
+		textureName: MUSHROOM_00_Y,
+		minScale: 0.7,
+		maxScale: 1
+	},
+	{
+		isNear:true,
+		canMirror:true,
+		offset:{y:-1},
+		textureName: MUSHROOM_00_R,
+		minScale: 0.7,
+		maxScale: 1
+	},
+	{
+		isNear:true,
+		canMirror:true,
+		offset:{y:-1},
+		textureName: MUSHROOM_01_P,
+		minScale: 0.7,
+		maxScale: 1
+	},
+	{
+		isNear:true,
+		canMirror:true,
+		offset:{y:-1},
+		textureName: MUSHROOM_01_LP,
+		minScale: 0.7,
+		maxScale: 1
+	},
+	{
+		isNear:true,
+		canMirror:true,
+		offset:{y:-1},
+		textureName: MUSHROOM_01_Y,
+		minScale: 0.7,
+		maxScale: 1
+	},
+	{
+		isNear:true,
+		canMirror:true,
+		offset:{y:-1},
+		textureName: MUSHROOM_01_R,
+		minScale: 0.7,
+		maxScale: 1
+	},
+	{
+		isNear:true,
+		canMirror:true,
+		offset:{y:-1},
+		textureName: MUSHROOM_02_R,
+		minScale: 0.7,
+		maxScale: 1
+	},
+	{
+		isNear:true,
+		canMirror:true,
+		offset:{y:-1},
+		textureName: MUSHROOM_02_Y,
+		minScale: 0.7,
+		maxScale: 1
+	},
+	{
+		isNear:true,
+		canMirror:true,
+		offset:{y:-1},
+		textureName: MUSHROOM_02_LP,
+		minScale: 0.7,
+		maxScale: 1
+	},
+	{
+		isNear:true,
+		canMirror:true,
+		offset:{y:-1},
+		textureName: ROCK_00,
+		minScale: 0.75,
+		maxScale: 1
+	},
+	{
+		isNear:true,
+		canMirror:true,
+		offset:{y:-1},
+		textureName: ROCK_01,
+		minScale: 1,
+		maxScale: 1.25
+	},
+	{
+		canMirror:true,
+		offset:{y:5},
+		textureName: LIANA_0,
+		isFloor: false
+	},
+	{
+		canMirror:true,
+		offset:{y:3},
+		textureName: LIANA_1,
+		isFloor: false
+	},
+	{
+		canMirror:true,
+		offset:{y:3},
+		textureName: LIANA_2,
+		isFloor: false
+	},
+	{
+		canMirror:true,
+		offset:{y:3},
+		textureName: SPIDER_WEB_0,
+		isFloor: false
+	},
+	{
+		canMirror:true,
+		offset:{y:3},
+		textureName: SPIDER_WEB_1,
+		isFloor: false
+	},
+	{
+		canMirror:true,
+		offset:{y:10},
+		textureName: BONE_FOR_ROOF,
+		isFloor: false
+	},
+	{
+		canMirror:true,
+		offset:{y:5},
+		textureName: ROCK_DECOR_0,
+		isFloor: false,
+		minScale: 1,
+		maxScale: 1.5
+	},
+	{
+		canMirror:true,
+		offset:{y:5},
+		textureName: ROCK_DECOR_1,
+		isFloor: false,
+		minScale: 1,
+		maxScale: 1.5
+	},
+	{
+		canMirror:true,
+		offset:{y:5},
+		textureName: ROCK_DECOR_2,
+		isFloor: false,
+		minScale: 1,
+		maxScale: 1.25
+	},
+	{
+		canMirror:true,
+		offset:{y:5},
+		textureName: ROCK_DECOR_3,
+		isFloor: false,
+		minScale: 1,
+		maxScale: 1.25
+	}
+]

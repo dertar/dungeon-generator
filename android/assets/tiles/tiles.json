@@ -1,0 +1,679 @@
+[
+  {
+	pattern:{ pattern:[[NONE,BLOCKED,NONE],[BLOCKED,BLOCKED,BLOCKED],[NONE,BLOCKED,NONE]]},
+    textureName:[[ROCK_ORIGIN]]
+  },
+  {
+    pattern:{pattern:[[NONE,BLOCKED,NONE],[EMPTY,BLOCKED,BLOCKED],[NONE,BLOCKED,NONE]]},
+    textureName:[[ROCK_LEFT]]
+  },
+  {
+    pattern:{pattern:[[NONE,BLOCKED,NONE],[BLOCKED,BLOCKED,BLOCKED],[NONE,EMPTY,NONE]]},
+    textureName:[[ROCK_BOTTOM]]
+  },
+  {
+    pattern:{pattern:[[NONE,EMPTY,NONE],[BLOCKED,BLOCKED,BLOCKED],[NONE,BLOCKED,NONE]]},
+    textureName:[[ROCK_TOP]],
+    isBg : true
+  },
+  {
+    pattern:{pattern:[[NONE,BLOCKED,NONE],[BLOCKED,BLOCKED,EMPTY],[NONE,BLOCKED,NONE]]},
+    textureName:[[ROCK_RIGHT]]
+  },
+  {
+    pattern:{pattern:[[NONE,EMPTY,NONE],[BLOCKED,BLOCKED,BLOCKED],[NONE,BLOCKED,NONE]]},
+    textureName:[[ROCK_WALKABLE]],
+	canStep:true
+  },
+  {
+    pattern:{
+		pattern: [[NONE,EMPTY,NONE],[EMPTY,BLOCKED,BLOCKED],[NONE,BLOCKED,NONE]],
+	},
+    textureName:[[ROCK_TOP_LEFT]],
+    isBg : true
+  },
+  {
+    pattern:{pattern:[[NONE,BLOCKED,NONE],[EMPTY,BLOCKED,BLOCKED],[NONE,EMPTY,NONE]]},
+    textureName:[[ROCK_BOTTOM_LEFT]]
+  },
+  {
+    pattern:{pattern:[[NONE,BLOCKED,NONE],[BLOCKED,BLOCKED,EMPTY],[NONE,EMPTY,NONE]]},
+    textureName:[[ROCK_BOTTOM_RIGHT]]
+  },
+  {
+    pattern:{pattern:[[NONE,EMPTY,NONE],[BLOCKED,BLOCKED,EMPTY],[NONE,BLOCKED,NONE]]},
+    textureName:[[ROCK_TOP_RIGHT]],
+    isBg : true
+  },
+  {
+    pattern:{pattern:[[NONE,EMPTY,NONE],[BLOCKED,BLOCKED,BLOCKED],[NONE,EMPTY,NONE]]},
+    textureName:[[ROCK_TOP_BOTTOM]],
+    isBg : true
+  },
+  {
+    pattern:{pattern:[[NONE,BLOCKED,NONE],[EMPTY,BLOCKED,EMPTY],[NONE,BLOCKED,NONE]]},
+    textureName:[[ROCK_LEFT_RIGHT]]
+  },
+  {
+    pattern:{pattern:[[NONE,EMPTY,NONE],[EMPTY,BLOCKED,BLOCKED],[NONE,BLOCKED,NONE]]},
+    textureName:[[ROCK_WALKABLE_LEFT]],
+	canStep:true
+  },
+  {
+    pattern:{pattern:[[NONE,EMPTY,NONE],[BLOCKED,BLOCKED,EMPTY],[NONE,BLOCKED,NONE]]},
+    textureName:[[ROCK_WALKABLE_RIGHT]],
+	canStep:true
+  },
+  {
+    pattern:{pattern:[[NONE,EMPTY,NONE],[BLOCKED,BLOCKED,BLOCKED],[NONE,EMPTY,NONE]]},
+    textureName:[[ROCK_WALKABLE_BOTTOM]],
+	canStep:true
+  },
+  {
+    pattern:{pattern:[[NONE,EMPTY,NONE],[EMPTY,BLOCKED,BLOCKED],[NONE,EMPTY,NONE]]},
+    textureName:[[ROCK_TOP_BOTTOM_LEFT]],
+    isBg : true
+  },
+  {
+    pattern:{pattern:[[NONE,BLOCKED,NONE],[EMPTY,BLOCKED,EMPTY],[NONE,EMPTY,NONE]]},
+    textureName:[[ROCK_BOTTOM_LEFT_RIGHT]]
+  },
+  {
+    pattern:{pattern:[[NONE,EMPTY,NONE],[BLOCKED,BLOCKED,EMPTY],[NONE,EMPTY,NONE]]},
+    textureName:[[ROCK_TOP_BOTTOM_RIGHT]],
+    isBg: true
+  },
+  {
+    pattern:{pattern:[[NONE,EMPTY,NONE],[EMPTY,BLOCKED,EMPTY],[NONE,BLOCKED,NONE]]},
+    textureName:[[ROCK_TOP_LEFT_RIGHT]],
+    isBg: true
+  },
+  {
+    pattern:{pattern:[[NONE,EMPTY,NONE],[EMPTY,BLOCKED,BLOCKED],[NONE,EMPTY,NONE]]},
+    textureName:[[ROCK_WALKABLE_BOTTOM_LEFT]],
+	canStep:true
+  },
+  {
+    pattern:{pattern:[[NONE,EMPTY,NONE],[BLOCKED,BLOCKED,EMPTY],[NONE,EMPTY,NONE]]},
+    textureName:[[ROCK_WALKABLE_BOTTOM_RIGHT]],
+	canStep:true
+  },
+  {
+    pattern:{pattern:[[NONE,EMPTY,NONE],[EMPTY,BLOCKED,EMPTY],[NONE,BLOCKED,NONE]]},
+    textureName:[[ROCK_WALKABLE_LEFT_RIGHT]],
+	canStep:true
+  },
+  {
+    pattern:{pattern:[[NONE,EMPTY,NONE],[EMPTY,BLOCKED,EMPTY],[NONE,EMPTY,NONE]]},
+    textureName:[[ROCK_TOP_BOTTOM_LEFT_RIGHT]],
+    isBg : true
+  },
+  {
+    pattern:{pattern:[[NONE,EMPTY,NONE],[EMPTY,BLOCKED,EMPTY],[NONE,EMPTY,NONE]]},
+    textureName:[[ROCK_WALKABLE_BOTTOM_LEFT_RIGHT]],
+	canStep:true
+  },
+  {
+    pattern:{pattern:[[NONE,EMPTY,EMPTY,NONE],[NONE,BLOCKED,BLOCKED,NONE],[NONE,BLOCKED,BLOCKED,NONE],[NONE,NONE,NONE,NONE]]},
+    textureName:[[TILE_BIG_SQUARE_TL,TILE_BIG_SQUARE_TR],[TILE_BIG_SQUARE_BL,TILE_BIG_SQUARE_BR]],
+	canStep:true,
+	isDecor:true,
+	chance: 0.03
+  },
+  {
+    pattern:{pattern:[[NONE,EMPTY,EMPTY,NONE],[NONE,BLOCKED,BLOCKED,NONE],[NONE,BLOCKED,BLOCKED,NONE],[NONE,NONE,NONE,NONE]]},
+    textureName:[[TILE_BIG_CIRCLE_TL,TILE_BIG_CIRCLE_TR],[TILE_BIG_CIRCLE_BL,TILE_BIG_CIRCLE_BR]],
+	canStep:true,
+	isDecor:true,
+	chance: 0.03
+  },
+  {
+    pattern:{pattern:[[NONE,EMPTY,EMPTY,NONE],[NONE,BLOCKED,BLOCKED,NONE],[NONE,BLOCKED,BLOCKED,NONE],[NONE,NONE,NONE,NONE]]},
+    textureName:[[TILE_BIG_TRIANGLE_TL,TILE_BIG_TRIANGLE_TR],[TILE_BIG_TRIANGLE_BL,TILE_BIG_TRIANGLE_BR]],
+	canStep:true,
+	isDecor:true,
+	chance: 0.03
+  },
+  {
+    pattern:{pattern:[[NONE,NONE,NONE],[NONE,BLOCKED,NONE],[NONE,NONE,NONE]]},
+    textureName:[[TILE_CIRCLE_EMPTY_00]],
+	canStep:true,
+	isDecor:true,
+	chance: 0.025
+  },
+  {
+    pattern:{pattern:[[NONE,NONE,NONE],[NONE,BLOCKED,NONE],[NONE,NONE,NONE]]},
+    textureName:[[TILE_SQUARE_EMPTY_00]],
+	canStep:true,
+	isDecor:true,
+	chance: 0.025
+  },
+  {
+    pattern:{pattern:[[NONE,NONE,NONE],[NONE,BLOCKED,NONE],[NONE,NONE,NONE]]},
+    textureName:[[TILE_SQUARE_00_O]],
+	canStep:true,
+	isDecor:true,
+	chance: 0.025
+  },
+  {
+    pattern:{pattern:[[NONE,NONE,NONE],[NONE,BLOCKED,NONE],[NONE,NONE,NONE]]},
+    textureName:[[TILE_TRIANGLE_00_O]],
+	canStep:true,
+	isDecor: true,
+	chance: 0.025
+  },
+  {
+	pattern:{ pattern:[[NONE,BLOCKED,NONE],[BLOCKED,BLOCKED,BLOCKED],[NONE,BLOCKED,NONE]]},
+    textureName:[[ROCK_DECOR_SKULL_ORIGIN]],
+	isDecor:true,
+	chance: 0.025
+  },
+  {
+    pattern:{pattern:[[NONE,BLOCKED,NONE],[EMPTY,BLOCKED,BLOCKED],[NONE,BLOCKED,NONE]]},
+    textureName:[[ROCK_DECOR_SKULL_LEFT]],
+	isDecor:true,
+	chance: 0.025
+  },
+  {
+    pattern:{pattern:[[NONE,BLOCKED,NONE],[BLOCKED,BLOCKED,BLOCKED],[NONE,EMPTY,NONE]]},
+    textureName:[[ROCK_DECOR_SKULL_BOTTOM]],
+	isDecor:true,
+	chance: 0.025
+  },
+  {
+    pattern:{pattern:[[NONE,BLOCKED,NONE],[BLOCKED,BLOCKED,EMPTY],[NONE,BLOCKED,NONE]]},
+    textureName:[[RROCK_DECOR_SKULL_RIGHT]],
+	isDecor:true,
+	chance: 0.025
+  },
+  {
+    pattern:{pattern:[[NONE,BLOCKED,NONE],[EMPTY,BLOCKED,BLOCKED],[NONE,EMPTY,NONE]]},
+    textureName:[[ROCK_DECOR_SKULL_BOTTOM_LEFT]],
+	isDecor:true,
+	chance: 0.025
+  },
+  {
+    pattern:{pattern:[[NONE,BLOCKED,NONE],[BLOCKED,BLOCKED,EMPTY],[NONE,EMPTY,NONE]]},
+    textureName:[[ROCK_DECOR_SKULL_BOTTOM_RIGHT]],
+	isDecor:true,
+	chance: 0.025
+  },
+  {
+	pattern:{ pattern:[[NONE,BLOCKED,NONE],[BLOCKED,BLOCKED,BLOCKED],[NONE,BLOCKED,NONE]]},
+    textureName:[[ROCK_DECOR_BONE_ORIGIN]],
+	isDecor:true,
+	chance: 0.025
+  },
+  {
+    pattern:{pattern:[[NONE,BLOCKED,NONE],[EMPTY,BLOCKED,BLOCKED],[NONE,BLOCKED,NONE]]},
+    textureName:[[ROCK_DECOR_BONE_LEFT]],
+	isDecor:true,
+	chance: 0.025
+  },
+  {
+    pattern:{pattern:[[NONE,BLOCKED,NONE],[BLOCKED,BLOCKED,BLOCKED],[NONE,EMPTY,NONE]]},
+    textureName:[[ROCK_DECOR_BONE_BOTTOM]],
+	isDecor:true,
+	chance: 0.025
+  },
+  {
+    pattern:{pattern:[[NONE,BLOCKED,NONE],[BLOCKED,BLOCKED,EMPTY],[NONE,BLOCKED,NONE]]},
+    textureName:[[RROCK_DECOR_BONE_RIGHT]],
+	isDecor:true,
+	chance: 0.025
+  },
+  {
+    pattern:{pattern:[[NONE,BLOCKED,NONE],[EMPTY,BLOCKED,BLOCKED],[NONE,EMPTY,NONE]]},
+    textureName:[[ROCK_DECOR_BONE_BOTTOM_LEFT]],
+	isDecor:true,
+	chance: 0.025
+  },
+  {
+    pattern:{pattern:[[NONE,BLOCKED,NONE],[BLOCKED,BLOCKED,EMPTY],[NONE,EMPTY,NONE]]},
+    textureName:[[ROCK_DECOR_BONE_BOTTOM_RIGHT]],
+	isDecor:true,
+	chance: 0.025
+  },
+  {
+	pattern:{ pattern:[[NONE,BLOCKED,NONE],[BLOCKED,BLOCKED,BLOCKED],[NONE,BLOCKED,NONE]]},
+    textureName:[[ROCK_DECOR_FISH_ORIGIN]],
+	isDecor:true,
+	chance: 0.025
+  },
+  {
+    pattern:{pattern:[[NONE,BLOCKED,NONE],[EMPTY,BLOCKED,BLOCKED],[NONE,BLOCKED,NONE]]},
+    textureName:[[ROCK_DECOR_FISH_LEFT]],
+	isDecor:true,
+	chance: 0.025
+  },
+  {
+    pattern:{pattern:[[NONE,BLOCKED,NONE],[BLOCKED,BLOCKED,BLOCKED],[NONE,EMPTY,NONE]]},
+    textureName:[[ROCK_DECOR_FISH_BOTTOM]],
+	isDecor:true,
+	chance: 0.025
+  },
+  {
+    pattern:{pattern:[[NONE,BLOCKED,NONE],[BLOCKED,BLOCKED,EMPTY],[NONE,BLOCKED,NONE]]},
+    textureName:[[RROCK_DECOR_FISH_RIGHT]],
+	isDecor:true,
+	chance: 0.025
+  },
+  {
+    pattern:{pattern:[[NONE,BLOCKED,NONE],[EMPTY,BLOCKED,BLOCKED],[NONE,EMPTY,NONE]]},
+    textureName:[[ROCK_DECOR_FISH_BOTTOM_LEFT]],
+	isDecor:true,
+	chance: 0.025
+  },
+  {
+    pattern:{pattern:[[NONE,BLOCKED,NONE],[BLOCKED,BLOCKED,EMPTY],[NONE,EMPTY,NONE]]},
+    textureName:[[ROCK_DECOR_FISH_BOTTOM_RIGHT]],
+	isDecor:true,
+	chance: 0.025
+  },
+  {
+	pattern:{ pattern:[[NONE,BLOCKED,NONE],[BLOCKED,BLOCKED,BLOCKED],[NONE,BLOCKED,NONE]]},
+    textureName:[[ROCK_DECOR_HORN_ORIGIN]],
+	isDecor:true,
+	chance: 0.025
+  },
+  {
+    pattern:{pattern:[[NONE,BLOCKED,NONE],[EMPTY,BLOCKED,BLOCKED],[NONE,BLOCKED,NONE]]},
+    textureName:[[ROCK_DECOR_HORN_LEFT]],
+	isDecor:true,
+	chance: 0.025
+  },
+  {
+    pattern:{pattern:[[NONE,BLOCKED,NONE],[BLOCKED,BLOCKED,BLOCKED],[NONE,EMPTY,NONE]]},
+    textureName:[[ROCK_DECOR_HORN_BOTTOM]],
+	isDecor:true,
+	chance: 0.025
+  },
+  {
+    pattern:{pattern:[[NONE,BLOCKED,NONE],[BLOCKED,BLOCKED,EMPTY],[NONE,BLOCKED,NONE]]},
+    textureName:[[RROCK_DECOR_HORN_RIGHT]],
+	isDecor:true,
+	chance: 0.025
+  },
+  {
+    pattern:{pattern:[[NONE,BLOCKED,NONE],[EMPTY,BLOCKED,BLOCKED],[NONE,EMPTY,NONE]]},
+    textureName:[[ROCK_DECOR_HORN_BOTTOM_LEFT]],
+	isDecor:true,
+	chance: 0.025
+  },
+  {
+    pattern:{pattern:[[NONE,BLOCKED,NONE],[BLOCKED,BLOCKED,EMPTY],[NONE,EMPTY,NONE]]},
+    textureName:[[ROCK_DECOR_HORN_BOTTOM_RIGHT]],
+	isDecor:true,
+	chance: 0.025
+  },
+  {
+	pattern:{ pattern:[[NONE,BLOCKED,NONE],[BLOCKED,BLOCKED,BLOCKED],[NONE,BLOCKED,NONE]]},
+    textureName:[[ROCK_DECOR_GRAVE_ORIGIN]],
+	isDecor:true,
+	chance: 0.025
+  },
+  {
+	pattern:{ pattern:[[NONE,BLOCKED,NONE],[BLOCKED,BLOCKED,BLOCKED],[NONE,BLOCKED,NONE]]},
+    textureName:[[ROCK_DECOR_GECKO_ORIGIN]],
+	isDecor:true,
+	chance: 0.025
+  },
+  {
+	pattern:{ pattern:[[NONE,BLOCKED,NONE],[BLOCKED,BLOCKED,BLOCKED],[NONE,BLOCKED,NONE]]},
+    textureName:[[ROCK_DECOR_BULL_ORIGIN]],
+	isDecor:true,
+	chance: 0.025
+  },
+  {
+	pattern:{ pattern:[[NONE,BLOCKED,NONE],[BLOCKED,BLOCKED,BLOCKED],[NONE,BLOCKED,NONE]]},
+    textureName:[[ROCK_DECOR_BLOCKY_ORIGIN]],
+	isDecor:true,
+	chance: 0.025
+  },
+  {
+    pattern:{pattern:[[NONE,BLOCKED,NONE],[EMPTY,BLOCKED,BLOCKED],[NONE,BLOCKED,NONE]]},
+    textureName:[[ROCK_DECOR_BLOCKY_LEFT]],
+	isDecor:true,
+	chance: 0.025
+  },
+  {
+    pattern:{pattern:[[NONE,BLOCKED,NONE],[BLOCKED,BLOCKED,BLOCKED],[NONE,EMPTY,NONE]]},
+    textureName:[[ROCK_DECOR_BLOCKY_BOTTOM]],
+	isDecor:true,
+	chance: 0.025
+  },
+  {
+    pattern:{pattern:[[NONE,BLOCKED,NONE],[BLOCKED,BLOCKED,EMPTY],[NONE,BLOCKED,NONE]]},
+    textureName:[[RROCK_DECOR_BLOCKY_RIGHT]],
+	isDecor:true,
+	chance: 0.025
+  },
+  {
+    pattern:{pattern:[[NONE,BLOCKED,NONE],[EMPTY,BLOCKED,BLOCKED],[NONE,EMPTY,NONE]]},
+    textureName:[[ROCK_DECOR_BLOCKY_BOTTOM_LEFT]],
+	isDecor:true,
+	chance: 0.025
+  },
+  {
+    pattern:{pattern:[[NONE,BLOCKED,NONE],[BLOCKED,BLOCKED,EMPTY],[NONE,EMPTY,NONE]]},
+    textureName:[[ROCK_DECOR_BLOCKY_BOTTOM_RIGHT]],
+	isDecor:true,
+	chance: 0.025
+  },
+  {
+	pattern:{ pattern:[[NONE,BLOCKED,NONE],[BLOCKED,BLOCKED,BLOCKED],[NONE,BLOCKED,NONE]]},
+    textureName:[[ROCK_DECOR_GOLD_ORIGIN]],
+	isDecor:true,
+	chance: 0.025
+  },
+  {
+    pattern:{pattern:[[NONE,BLOCKED,NONE],[EMPTY,BLOCKED,BLOCKED],[NONE,BLOCKED,NONE]]},
+    textureName:[[ROCK_DECOR_GOLD_LEFT]],
+	isDecor:true,
+	chance: 0.025
+  },
+  {
+    pattern:{pattern:[[NONE,BLOCKED,NONE],[BLOCKED,BLOCKED,BLOCKED],[NONE,EMPTY,NONE]]},
+    textureName:[[ROCK_DECOR_GOLD_BOTTOM]],
+	isDecor:true,
+	chance: 0.025
+  },
+  {
+    pattern:{pattern:[[NONE,BLOCKED,NONE],[BLOCKED,BLOCKED,EMPTY],[NONE,BLOCKED,NONE]]},
+    textureName:[[RROCK_DECOR_GOLD_RIGHT]],
+	isDecor:true,
+	chance: 0.025
+  },
+  {
+    pattern:{pattern:[[NONE,BLOCKED,NONE],[EMPTY,BLOCKED,BLOCKED],[NONE,EMPTY,NONE]]},
+    textureName:[[ROCK_DECOR_GOLD_BOTTOM_LEFT]],
+	isDecor:true,
+	chance: 0.025
+  },
+  {
+    pattern:{pattern:[[NONE,BLOCKED,NONE],[BLOCKED,BLOCKED,EMPTY],[NONE,EMPTY,NONE]]},
+    textureName:[[ROCK_DECOR_GOLD_BOTTOM_RIGHT]],
+	isDecor:true,
+	chance: 0.025
+  },
+  {
+    pattern:{pattern:[[NONE,EMPTY,NONE],[EMPTY,BLOCKED,EMPTY],[EMPTY,BLOCKED,EMPTY],[EMPTY,BLOCKED,EMPTY],[NONE,BLOCKED,NONE]]},
+    textureName:[[DECOR_COLUMN_00],[DECOR_COLUMN_01],[DECOR_COLUMN_02]],
+	canStep:true,
+	isDecor:true,
+	chance: 0.2
+  },
+  {
+    pattern:{pattern:[[NONE,BLOCKED,BLOCKED],[EMPTY,BLOCKED,BLOCKED],[EMPTY,BLOCKED,BLOCKED],[EMPTY,BLOCKED,BLOCKED],[EMPTY,BLOCKED,BLOCKED],[EMPTY,BLOCKED,BLOCKED],[EMPTY,BLOCKED,NONE]]},
+    textureName:[[DECOR_LIANA_PACK_LEFT_0],[DECOR_LIANA_PACK_LEFT_1],[DECOR_LIANA_PACK_LEFT_2],[DECOR_LIANA_PACK_LEFT_3],[DECOR_LIANA_PACK_LEFT_4]],
+	isDecor:true,
+	chance: 0.2
+  },
+  
+  
+  {
+    pattern:{pattern:[[NONE,BLOCKED,BLOCKED],[EMPTY,BLOCKED,BLOCKED],[EMPTY,BLOCKED,BLOCKED],[EMPTY,BLOCKED,BLOCKED],[EMPTY,BLOCKED,BLOCKED],[EMPTY,BLOCKED,NONE]]},
+    textureName:[[DECOR_LIANA_PACK_LEFT_0],[DECOR_LIANA_PACK_LEFT_1],[DECOR_LIANA_PACK_LEFT_2],[DECOR_LIANA_PACK_LEFT_5]],
+	isDecor:true,
+	chance: 0.2
+  },
+  {
+    pattern:{pattern:[[NONE,BLOCKED,BLOCKED],[EMPTY,BLOCKED,BLOCKED],[EMPTY,BLOCKED,BLOCKED],[EMPTY,BLOCKED,BLOCKED],[EMPTY,BLOCKED,NONE]]},
+    textureName:[[DECOR_LIANA_PACK_LEFT_0],[DECOR_LIANA_PACK_LEFT_1],[DECOR_LIANA_PACK_LEFT_6]],
+	isDecor:true,
+	chance: 0.2
+  },
+  {
+    pattern:{pattern:[[NONE,BLOCKED,BLOCKED],[EMPTY,BLOCKED,BLOCKED],[EMPTY,BLOCKED,BLOCKED],[EMPTY,BLOCKED,NONE]]},
+    textureName:[[DECOR_LIANA_PACK_LEFT_0],[DECOR_LIANA_PACK_LEFT_7]],
+	isDecor:true,
+	chance: 0.2
+  },
+  {
+    pattern:{pattern:[[NONE,BLOCKED,BLOCKED],[EMPTY,BLOCKED,BLOCKED],[EMPTY,BLOCKED,BLOCKED],[EMPTY,BLOCKED,BLOCKED],[EMPTY,BLOCKED,BLOCKED],[EMPTY,BLOCKED,BLOCKED],[NONE,EMPTY,NONE]]},
+    textureName:[[DECOR_LIANA_PACK_LEFT_0],[DECOR_LIANA_PACK_LEFT_1],[DECOR_LIANA_PACK_LEFT_2],[DECOR_LIANA_PACK_LEFT_3],[DECOR_LIANA_PACK_LEFT_8]],
+	isDecor:true,
+	chance: 0.2
+  },
+  {
+    pattern:{pattern:[[NONE,BLOCKED,BLOCKED],[EMPTY,BLOCKED,BLOCKED],[EMPTY,BLOCKED,BLOCKED],[EMPTY,BLOCKED,BLOCKED],[EMPTY,BLOCKED,BLOCKED],[NONE,EMPTY,NONE]]},
+    textureName:[[DECOR_LIANA_PACK_LEFT_0],[DECOR_LIANA_PACK_LEFT_1],[DECOR_LIANA_PACK_LEFT_2],[DECOR_LIANA_PACK_LEFT_9]],
+	isDecor:true,
+	chance: 0.2
+  },
+  {
+    pattern:{pattern:[[NONE,BLOCKED,BLOCKED],[EMPTY,BLOCKED,BLOCKED],[EMPTY,BLOCKED,BLOCKED],[EMPTY,BLOCKED,BLOCKED],[NONE,EMPTY,NONE]]},
+    textureName:[[DECOR_LIANA_PACK_LEFT_0],[DECOR_LIANA_PACK_LEFT_1],[DECOR_LIANA_PACK_LEFT_10]],
+	isDecor:true,
+	chance: 0.2
+  },
+  {
+    pattern:{pattern:[[NONE,BLOCKED,BLOCKED],[EMPTY,BLOCKED,BLOCKED],[EMPTY,BLOCKED,BLOCKED],[NONE,EMPTY,NONE]]},
+    textureName:[[DECOR_LIANA_PACK_LEFT_0],[DECOR_LIANA_PACK_LEFT_11]],
+	isDecor:true,
+	chance: 0.2
+  },
+  {
+    pattern:{pattern:[[BLOCKED,BLOCKED,EMPTY],[BLOCKED,BLOCKED,EMPTY],[BLOCKED,BLOCKED,EMPTY],[BLOCKED,BLOCKED,EMPTY],[BLOCKED,BLOCKED,EMPTY],[BLOCKED,BLOCKED,EMPTY],[NONE	,BLOCKED,EMPTY]]},
+    textureName:[[DECOR_LIANA_PACK_RIGHT_0],[DECOR_LIANA_PACK_RIGHT_1],[DECOR_LIANA_PACK_RIGHT_2],[DECOR_LIANA_PACK_RIGHT_3],[DECOR_LIANA_PACK_RIGHT_4]],
+	isDecor:true,
+	chance: 0.2
+  },
+  {
+    pattern:{pattern:[[BLOCKED,BLOCKED,EMPTY],[BLOCKED,BLOCKED,EMPTY],[BLOCKED,BLOCKED,EMPTY],[BLOCKED,BLOCKED,EMPTY],[BLOCKED,BLOCKED,EMPTY],[NONE,BLOCKED,EMPTY]]},
+    textureName:[[DECOR_LIANA_PACK_RIGHT_0],[DECOR_LIANA_PACK_RIGHT_1],[DECOR_LIANA_PACK_RIGHT_2],[DECOR_LIANA_PACK_RIGHT_5]],
+	isDecor:true,
+	chance: 0.2
+  },
+  {
+    pattern:{pattern:[[BLOCKED,BLOCKED,EMPTY],[BLOCKED,BLOCKED,EMPTY],[BLOCKED,BLOCKED,EMPTY],[BLOCKED,BLOCKED,EMPTY],[NONE,BLOCKED,EMPTY]]},
+    textureName:[[DECOR_LIANA_PACK_RIGHT_0],[DECOR_LIANA_PACK_RIGHT_1],[DECOR_LIANA_PACK_RIGHT_6]],
+	isDecor:true,
+	chance: 0.2
+  },
+   {
+    pattern:{pattern:[[BLOCKED,BLOCKED,EMPTY],[BLOCKED,BLOCKED,EMPTY],[BLOCKED,BLOCKED,EMPTY],[NONE,BLOCKED,EMPTY]]},
+    textureName:[[DECOR_LIANA_PACK_RIGHT_0],[DECOR_LIANA_PACK_RIGHT_7]],
+	isDecor:true,
+	chance: 0.2
+  },
+  {
+    pattern:{pattern:[[BLOCKED,BLOCKED,NONE],[BLOCKED,BLOCKED,EMPTY],[BLOCKED,BLOCKED,EMPTY],[BLOCKED,BLOCKED,EMPTY],[BLOCKED,BLOCKED,EMPTY],[BLOCKED,BLOCKED,EMPTY],[NONE,EMPTY,NONE]]},
+    textureName:[[DECOR_LIANA_PACK_RIGHT_0],[DECOR_LIANA_PACK_RIGHT_1],[DECOR_LIANA_PACK_RIGHT_2],[DECOR_LIANA_PACK_RIGHT_3],[DECOR_LIANA_PACK_RIGHT_8]],
+	isDecor:true,
+	chance: 0.2
+  },
+  {
+    pattern:{pattern:[[BLOCKED,BLOCKED,NONE],[BLOCKED,BLOCKED,EMPTY],[BLOCKED,BLOCKED,EMPTY],[BLOCKED,BLOCKED,EMPTY],[BLOCKED,BLOCKED,EMPTY],[NONE,EMPTY,NONE]]},
+    textureName:[[DECOR_LIANA_PACK_RIGHT_0],[DECOR_LIANA_PACK_RIGHT_1],[DECOR_LIANA_PACK_RIGHT_2],[DECOR_LIANA_PACK_RIGHT_9]],
+	isDecor:true,
+	chance: 0.2
+  },
+  {
+    pattern:{pattern:[[BLOCKED,BLOCKED,NONE],[BLOCKED,BLOCKED,EMPTY],[BLOCKED,BLOCKED,EMPTY],[BLOCKED,BLOCKED,EMPTY],[NONE,EMPTY,NONE]]},
+    textureName:[[DECOR_LIANA_PACK_RIGHT_0],[DECOR_LIANA_PACK_RIGHT_1],[DECOR_LIANA_PACK_RIGHT_10]],
+	isDecor:true,
+	chance: 0.2
+  },
+  {
+    pattern:{pattern:[[BLOCKED,BLOCKED,NONE],[BLOCKED,BLOCKED,EMPTY],[BLOCKED,BLOCKED,EMPTY],[NONE,EMPTY,NONE]]},
+    textureName:[[DECOR_LIANA_PACK_RIGHT_0],[DECOR_LIANA_PACK_RIGHT_11]],
+	isDecor:true,
+	chance: 0.2
+  },
+  {
+	pattern:{pattern:[[NONE,EMPTY,NONE],[EMPTY,BLOCKED,BLOCKED],[NONE,BLOCKED,NONE]]},
+    textureName:[[DECOR_LIANA_WALK_LEFT]],
+	canStep:true,
+	isDecor:true,
+	chance:0.2
+   },
+  {
+	pattern:{pattern:[[NONE,EMPTY,NONE],[BLOCKED,BLOCKED,BLOCKED],[NONE,BLOCKED,NONE]]},
+    textureName:[[DECOR_LIANA_WALK_LEFT_RIGHT]],
+	canStep:true,
+	isDecor:true,
+	chance:0.2
+   },
+   {
+	pattern:{pattern:[[NONE,EMPTY,NONE],[BLOCKED,BLOCKED,EMPTY],[NONE,BLOCKED,NONE]]},
+    textureName:[[DECOR_LIANA_WALK_RIGHT]],
+	canStep:true,
+	isDecor:true,
+	chance:0.2
+   },
+  {
+	pattern:{pattern:[[NONE,EMPTY,EMPTY],[EMPTY,BLOCKED,BLOCKED],[EMPTY,BLOCKED,BLOCKED],[EMPTY,BLOCKED,BLOCKED],[EMPTY,BLOCKED,BLOCKED],[NONE,BLOCKED,NONE]]},
+    textureName:[[DECOR_LIANA_WALK_LEFT_0],[DECOR_LIANA_WALK_LEFT_1],[DECOR_LIANA_WALK_LEFT_2],[DECOR_LIANA_WALK_LEFT_3]],
+	canStep:true,
+	isDecor:true,
+	chance:0.2
+   },
+  {
+	pattern:{pattern:[[NONE,EMPTY,EMPTY],[EMPTY,BLOCKED,BLOCKED],[EMPTY,BLOCKED,BLOCKED],[EMPTY,BLOCKED,BLOCKED],[NONE,BLOCKED,NONE]]},
+    textureName:[[DECOR_LIANA_WALK_LEFT_0],[DECOR_LIANA_WALK_LEFT_1],[DECOR_LIANA_WALK_LEFT_4]],
+	canStep:true,
+	isDecor:true,
+	chance:0.2
+   },
+  {
+	pattern:{pattern:[[NONE,EMPTY,EMPTY],[EMPTY,BLOCKED,BLOCKED],[EMPTY,BLOCKED,BLOCKED],[NONE,BLOCKED,NONE]]},
+    textureName:[[DECOR_LIANA_WALK_LEFT_0],[DECOR_LIANA_WALK_LEFT_5]],
+	canStep:true,
+	isDecor:true,
+	chance:0.2
+   },
+   {
+	pattern:{pattern:[[NONE,EMPTY,EMPTY],[EMPTY,BLOCKED,BLOCKED],[EMPTY,BLOCKED,BLOCKED],[EMPTY,BLOCKED,BLOCKED],[EMPTY,BLOCKED,BLOCKED],[NONE,EMPTY,NONE]]},
+    textureName:[[DECOR_LIANA_WALK_LEFT_0],[DECOR_LIANA_WALK_LEFT_1],[DECOR_LIANA_WALK_LEFT_2],[DECOR_LIANA_WALK_LEFT_6]],
+	canStep:true,
+	isDecor:true,
+	chance:0.2
+   },
+   {
+	pattern:{pattern:[[NONE,EMPTY,EMPTY],[EMPTY,BLOCKED,BLOCKED],[EMPTY,BLOCKED,BLOCKED],[EMPTY,BLOCKED,BLOCKED],[NONE,EMPTY,NONE]]},
+    textureName:[[DECOR_LIANA_WALK_LEFT_0],[DECOR_LIANA_WALK_LEFT_1],[DECOR_LIANA_WALK_LEFT_7]],
+	canStep:true,
+	isDecor:true,
+	chance:0.2
+   },
+   {
+	pattern:{pattern:[[NONE,EMPTY,EMPTY],[EMPTY,BLOCKED,BLOCKED],[EMPTY,BLOCKED,BLOCKED],[NONE,EMPTY,NONE]]},
+    textureName:[[DECOR_LIANA_WALK_LEFT_0],[DECOR_LIANA_WALK_LEFT_8]],
+	canStep:true,
+	isDecor:true,
+	chance:0.2
+   },
+   {
+	pattern:{pattern:[[NONE,EMPTY,NONE],[BLOCKED,BLOCKED,BLOCKED],[BLOCKED,BLOCKED,BLOCKED],[BLOCKED,BLOCKED,BLOCKED],[BLOCKED,BLOCKED,BLOCKED],[NONE,BLOCKED,NONE]]},
+    textureName:[[DECOR_LIANA_WALK_ORIGIN_0],[DECOR_LIANA_WALK_ORIGIN_1],[DECOR_LIANA_WALK_ORIGIN_2],[DECOR_LIANA_WALK_ORIGIN_3]],
+	canStep:true,
+	isDecor:true,
+	chance:0.2
+   },
+   {
+	pattern:{pattern:[[NONE,EMPTY,NONE],[BLOCKED,BLOCKED,BLOCKED],[BLOCKED,BLOCKED,BLOCKED],[BLOCKED,BLOCKED,BLOCKED],[NONE,BLOCKED,NONE]]},
+    textureName:[[DECOR_LIANA_WALK_ORIGIN_0],[DECOR_LIANA_WALK_ORIGIN_1],[DECOR_LIANA_WALK_ORIGIN_4]],
+	canStep:true,
+	isDecor:true,
+	chance:0.2
+   },
+   {
+	pattern:{pattern:[[NONE,EMPTY,NONE],[BLOCKED,BLOCKED,BLOCKED],[BLOCKED,BLOCKED,BLOCKED],[NONE,BLOCKED,NONE]]},
+    textureName:[[DECOR_LIANA_WALK_ORIGIN_0],[DECOR_LIANA_WALK_ORIGIN_5]],
+	canStep:true,
+	isDecor:true,
+	chance:0.2
+   },
+   {
+	pattern:{pattern:[[NONE,EMPTY,NONE],[BLOCKED,BLOCKED,BLOCKED],[BLOCKED,BLOCKED,BLOCKED],[BLOCKED,BLOCKED,BLOCKED],[BLOCKED,BLOCKED,BLOCKED],[NONE,EMPTY,NONE]]},
+    textureName:[[DECOR_LIANA_WALK_ORIGIN_0],[DECOR_LIANA_WALK_ORIGIN_1],[DECOR_LIANA_WALK_ORIGIN_2],[DECOR_LIANA_WALK_ORIGIN_6]],
+	canStep:true,
+	isDecor:true,
+	chance:0.2
+   },
+   {
+	pattern:{pattern:[[NONE,EMPTY,NONE],[BLOCKED,BLOCKED,BLOCKED],[BLOCKED,BLOCKED,BLOCKED],[BLOCKED,BLOCKED,BLOCKED],[NONE,EMPTY,NONE]]},
+    textureName:[[DECOR_LIANA_WALK_ORIGIN_0],[DECOR_LIANA_WALK_ORIGIN_1],[DECOR_LIANA_WALK_ORIGIN_7]],
+	canStep:true,
+	isDecor:true,
+	chance:0.2
+   },
+   {
+	pattern:{pattern:[[NONE,EMPTY,NONE],[BLOCKED,BLOCKED,BLOCKED],[BLOCKED,BLOCKED,BLOCKED],[NONE,EMPTY,NONE]]},
+    textureName:[[DECOR_LIANA_WALK_ORIGIN_0],[DECOR_LIANA_WALK_ORIGIN_8]],
+	canStep:true,
+	isDecor:true,
+	chance:0.2
+   },
+    {
+	pattern:{pattern:[[EMPTY,EMPTY,NONE],[BLOCKED,BLOCKED,EMPTY],[BLOCKED,BLOCKED,EMPTY],[BLOCKED,BLOCKED,EMPTY],[BLOCKED,BLOCKED,EMPTY],[NONE,BLOCKED,NONE]]},
+    textureName:[[DECOR_LIANA_WALK_RIGHT_0],[DECOR_LIANA_WALK_RIGHT_1],[DECOR_LIANA_WALK_RIGHT_2],[DECOR_LIANA_WALK_RIGHT_3]],
+	canStep:true,
+	isDecor:true,
+	chance:0.2
+   },
+    {
+	pattern:{pattern:[[EMPTY,EMPTY,NONE],[BLOCKED,BLOCKED,EMPTY],[BLOCKED,BLOCKED,EMPTY],[BLOCKED,BLOCKED,EMPTY],[NONE,BLOCKED,NONE]]},
+    textureName:[[DECOR_LIANA_WALK_RIGHT_0],[DECOR_LIANA_WALK_RIGHT_1],[DECOR_LIANA_WALK_RIGHT_4]],
+	canStep:true,
+	isDecor:true,
+	chance:0.2
+   },
+   {
+	pattern:{pattern:[[EMPTY,EMPTY,NONE],[BLOCKED,BLOCKED,EMPTY],[BLOCKED,BLOCKED,EMPTY],[NONE,BLOCKED,NONE]]},
+    textureName:[[DECOR_LIANA_WALK_RIGHT_0],[DECOR_LIANA_WALK_RIGHT_5]],
+	canStep:true,
+	isDecor:true,
+	chance:0.2
+   },
+    {
+	pattern:{pattern:[[EMPTY,EMPTY,NONE],[BLOCKED,BLOCKED,EMPTY],[BLOCKED,BLOCKED,EMPTY],[BLOCKED,BLOCKED,EMPTY],[BLOCKED,BLOCKED,EMPTY],[NONE,EMPTY,NONE]]},
+    textureName:[[DECOR_LIANA_WALK_RIGHT_0],[DECOR_LIANA_WALK_RIGHT_1],[DECOR_LIANA_WALK_RIGHT_2],[DECOR_LIANA_WALK_RIGHT_6]],
+	canStep:true,
+	isDecor:true,
+	chance:0.2
+   },
+     {
+	pattern:{pattern:[[EMPTY,EMPTY,NONE],[BLOCKED,BLOCKED,EMPTY],[BLOCKED,BLOCKED,EMPTY],[BLOCKED,BLOCKED,EMPTY],[NONE,EMPTY,NONE]]},
+    textureName:[[DECOR_LIANA_WALK_RIGHT_0],[DECOR_LIANA_WALK_RIGHT_1],[DECOR_LIANA_WALK_RIGHT_7]],
+	canStep:true,
+	isDecor:true,
+	chance:0.2
+   },
+    {
+	pattern:{pattern:[[EMPTY,EMPTY,NONE],[BLOCKED,BLOCKED,EMPTY],[BLOCKED,BLOCKED,EMPTY],[NONE,EMPTY,NONE]]},
+    textureName:[[DECOR_LIANA_WALK_RIGHT_0],[DECOR_LIANA_WALK_RIGHT_8]],
+	canStep:true,
+	isDecor:true,
+	chance:0.2
+   },
+   {
+	pattern:{pattern:[[NONE,EMPTY,EMPTY,EMPTY,NONE],[BLOCKED,BLOCKED,BLOCKED,BLOCKED,BLOCKED],[BLOCKED,BLOCKED,BLOCKED,BLOCKED,BLOCKED],[NONE,BLOCKED,BLOCKED,BLOCKED,NONE]]},
+    textureName:[[DECOR_LIANA_WALK_PACK_0_0,DECOR_LIANA_WALK_PACK_0_1,DECOR_LIANA_WALK_PACK_0_2],[DECOR_LIANA_WALK_PACK_0_3,DECOR_LIANA_WALK_PACK_0_4,DECOR_LIANA_WALK_PACK_0_5]],
+	canStep:true,
+	isDecor:true,
+	chance:0.2
+   },
+   {
+	pattern:{pattern:[[NONE,EMPTY,NONE],[EMPTY,BLOCKED,BLOCKED],[NONE,EMPTY,NONE]]},
+    textureName:[[DECOR_LIANA_WALK_LEFT_BOTTOM]],
+	canStep:true,
+	isDecor:true,
+	chance:0.1
+   },
+   {
+	pattern:{pattern:[[NONE,EMPTY,NONE],[BLOCKED,BLOCKED,BLOCKED],[NONE,EMPTY,NONE]]},
+    textureName:[[DECOR_LIANA_WALK_BOTTOM]],
+	canStep:true,
+	isDecor:true,
+	chance:0.1
+   },
+   {
+	pattern:{pattern:[[NONE,EMPTY,NONE],[BLOCKED,BLOCKED,EMPTY],[NONE,EMPTY,NONE]]},
+    textureName:[[DECOR_LIANA_WALK_RIGHT_BOTTOM]],
+	canStep:true,
+	isDecor:true,
+	chance:0.1
+   }
+]
