@@ -13,9 +13,9 @@ key - descriptions\
 q - zoom in\
 a - zoom out\
 w - rotation by clock\
-e - rotation by !clock\ 
+e - rotation by !clock\
 z - jump\
-arrows - control\
+arrows - control
 
 some examples:
 
